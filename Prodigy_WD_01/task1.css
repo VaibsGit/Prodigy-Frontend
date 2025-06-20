@@ -24,3 +24,60 @@ body{
     height:450px;
     width:100%;
 }
+/*Button in top*/
+#top button,.btn-cta,.submit{
+    margin-left:40px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.search {
+  padding-right:100px;
+}
+
+#top a{
+    font-size: 2rem;
+    color: #fcf9f9;
+    text-decoration:solid;
+    font-family: cursive;
+    margin-right: 200px;
+    margin-left:40px;
+}
+/*Navbar below*/
+#navbar{
+     position: fixed;
+  top: 100px; 
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+#navbar a {
+    margin-right:130px;
+}
+#navbar a:hover {
+  color: #6a1b9a; 
+  text-decoration: underline;
+}
+
+/* Navbar when scrolled */
+#navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#navbar.scrolled a {
+  color: #000; /* Ensures contrast */
+}
+
+#contact input,
+#contact textarea {
+  padding: 15px;
+  border: 1px solid #b2dfdb;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.hero,#about,#contact{
+    margin-top: 100px;
+}
