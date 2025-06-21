@@ -1,3 +1,23 @@
 body{
     background-color: darkcyan;
+    align-items:center;
+    display: flex;
+    justify-content: center;  
+    font-size: 48px; 
+}
+
+.stopwatch {
+    text-align: center;
+    background: whitesmoke;
+    padding:20px;
+    border-radius: 30px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background-color: darkcyan;
+  margin: 0 10px;
+  cursor: pointer;
 }
