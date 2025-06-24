@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Game</title>
-        <link rel="stylesheet" href="tc03.css">
-    </head>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <link rel="stylesheet" href="tc03.css">
+</head>
 <body>
-    <div class="content">
-        <h3>TIC TAC TOE</h3>
-    </div>
+  <h3>TIC TAC TOE</h3>
+  
+  <div class="content">
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+  </div>
+
+  <p id="status">Player X's turn</p>
+  <button id="reset">Reset Game</button>
+  <button id="new-btn">New Game</button>
+
+ <div id="scoreboard">
+  <p>Player X Wins: <span id="x-score">0</span></p>
+  <p>Player O Wins: <span id="o-score">0</span></p>
+</div>
+<p id="final-winner" style="font-size: 18px; font-weight: bold; color: purple;"></p>
+
+  <div class="msg-container hide">
+    <p id="msg"></p>
+  </div>
+
+  <script src="tj03.js"></script>
 </body>
 </html>

@@ -1,5 +1,50 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
 .content {
-    display: flex;
-    justify-content: center;
-    align-self:center;
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+  margin: 20px auto;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: red;
+  background-color: pink;
+  cursor: pointer;
+}
+
+#status {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#reset, #new-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.msg-container {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
 }
