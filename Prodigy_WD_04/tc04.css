@@ -1,53 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    background-color: bisque;
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd;
 }
 
-#navbar {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
+.image {
+    position: fixed;
+    top: 70px;
+    left: 50px;
 }
 
-#navbar a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#navbar a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 40px;
-    text-align: center;
-}
-
-h1 {
-    font-size: 40px;
-    color: #333;
-}
-
-h2 {
-    font-size: 30px;
-    color: #444;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 20px 0;
+.image img {
+    width: 200px;
+    height: 300px;
     object-fit: cover;
+    border-radius: 20px;
+    z-index: 1000;
 }
 
-p {
-    font-size: 18px;
-    color: #555;
-    max-width: 600px;
-    margin: 10px auto;
+.info{
+    padding: 4%;
+    height: 400px;
+    position: fixed;
+    top: 400px;
+    left: 50px;
+    background-color: #baaa9a;
+    z-index: 999;
 }
